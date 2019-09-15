@@ -5,6 +5,9 @@
       <module name="buildSrc" target="1.8" />
       <module name="com.russhwolf-multiplatform-settings_jvmMain" target="1.6" />
       <module name="com.russhwolf-multiplatform-settings_jvmTest" target="1.6" />
+      <module name="multiplatform-settings-coroutines" target="1.8" />
+      <module name="multiplatform-settings-coroutines_jvmMain" target="1.6" />
+      <module name="multiplatform-settings-coroutines_jvmTest" target="1.6" />
       <module name="multiplatform-settings-test" target="1.8" />
       <module name="multiplatform-settings-test_jvmMain" target="1.6" />
       <module name="multiplatform-settings-test_jvmTest" target="1.6" />
