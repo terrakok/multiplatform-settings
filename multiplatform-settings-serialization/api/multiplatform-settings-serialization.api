@@ -1,0 +1,12 @@
+public abstract interface class com/russhwolf/settings/serialization/SettingsSerialFormat {
+	public abstract fun deserializeFromSettings (Lkotlinx/serialization/KSerializer;Ljava/lang/String;)Ljava/lang/Object;
+	public abstract fun serializeToSettings (Lkotlinx/serialization/KSerializer;Ljava/lang/String;Ljava/lang/Object;)V
+}
+
+public final class com/russhwolf/settings/serialization/SettingsSerializerKt {
+	public static final fun serialDelegate (Lcom/russhwolf/settings/Settings;Lkotlinx/serialization/KSerializer;Ljava/lang/String;)Lkotlin/properties/ReadWriteProperty;
+	public static synthetic fun serialDelegate$default (Lcom/russhwolf/settings/Settings;Lkotlinx/serialization/KSerializer;Ljava/lang/String;ILjava/lang/Object;)Lkotlin/properties/ReadWriteProperty;
+	public static final fun serialFormat (Lcom/russhwolf/settings/Settings;Lkotlinx/serialization/modules/SerialModule;)Lcom/russhwolf/settings/serialization/SettingsSerialFormat;
+	public static synthetic fun serialFormat$default (Lcom/russhwolf/settings/Settings;Lkotlinx/serialization/modules/SerialModule;ILjava/lang/Object;)Lcom/russhwolf/settings/serialization/SettingsSerialFormat;
+}
+
