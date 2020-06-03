@@ -23,11 +23,12 @@ plugins {
 
 allprojects {
     group = "com.russhwolf"
-    version = "0.6"
+    version = "0.6-hmpp"
 
     repositories {
         google()
         mavenCentral()
+        maven("https://kotlin.bintray.com/kotlin-eap")
         jcenter()
     }
 

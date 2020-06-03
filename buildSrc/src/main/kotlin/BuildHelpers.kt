@@ -38,7 +38,7 @@ fun Project.standardConfiguration(
     vararg presetNames: String = kotlin.presets.map { it.name }.toTypedArray(),
     isTestModule: Boolean = false
 ) {
-    val targetPresets = kotlin.presets.matching { it.name in presetNames }
+    val targetPresets = kotlin.presets.matching { it.name in presetNames && it.name != "jsBoth" && it.name != "jsIr" }
     kotlin.buildAllTargets(targetPresets)
     android.configureAndroidApiLevel()
 
